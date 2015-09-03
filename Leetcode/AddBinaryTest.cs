@@ -4,7 +4,7 @@ using NUnit.Framework;
 namespace Leetcode
 {
     [TestFixture]
-    public class UnitTest1
+    public class AddBinaryTest
     {
         [Test]
         [TestCase("0", "0", "0")]
