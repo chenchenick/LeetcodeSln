@@ -1,5 +1,6 @@
 ﻿using System;
 using NUnit.Framework;
+using System.Text;
 
 namespace Leetcode
 {
@@ -12,10 +13,27 @@ namespace Leetcode
         [TestCase("11", "1", "100")]
         public void TestMethod1(string a, string b, string expect)
         {
-            string result = AddBinary(a, b);
+            string result = AddBinary_Referece(a, b);
             Assert.AreEqual(expect, result);
         }
+        public string AddBinary_Referece(string a, string b)
+        {
+            StringBuilder sb = new StringBuilder();
+            int carry = 0;
+            for (int i = a.Length - 1, j = b.Length - 1; i >= 0 || j >= 0; i--, j--)
+            {
+                int intA = i >= 0 ? a[i] - '0' : 0;
+                int intB = j >= 0 ? b[j] - '0' : 0;
+                int sum = intA + intB + carry;
+                carry = sum / 2;
+                sb.Insert(0, (sum % 2).ToString());
+            }
 
+            if (carry == 1)
+                sb.Insert(0, "1");
+
+            return sb.ToString();
+        }
         public string AddBinary(string a, string b)
         {
             if (b.Length > a.Length)
