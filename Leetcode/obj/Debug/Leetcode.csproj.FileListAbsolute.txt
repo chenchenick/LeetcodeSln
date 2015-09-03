@@ -1,0 +1,7 @@
+C:\Users\chenchen\Source\Repos\ElasticDataProcesser\LeetcodeSln\Leetcode\bin\Debug\Leetcode.dll
+C:\Users\chenchen\Source\Repos\ElasticDataProcesser\LeetcodeSln\Leetcode\bin\Debug\Leetcode.pdb
+C:\Users\chenchen\Source\Repos\ElasticDataProcesser\LeetcodeSln\Leetcode\obj\Debug\Leetcode.csprojResolveAssemblyReference.cache
+C:\Users\chenchen\Source\Repos\ElasticDataProcesser\LeetcodeSln\Leetcode\obj\Debug\Leetcode.dll
+C:\Users\chenchen\Source\Repos\ElasticDataProcesser\LeetcodeSln\Leetcode\obj\Debug\Leetcode.pdb
+C:\Users\chenchen\Source\Repos\ElasticDataProcesser\LeetcodeSln\Leetcode\bin\Debug\nunit.framework.dll
+C:\Users\chenchen\Source\Repos\ElasticDataProcesser\LeetcodeSln\Leetcode\bin\Debug\nunit.framework.xml
