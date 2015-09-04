@@ -71,6 +71,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="AddBinaryTest.cs" />
+    <Compile Include="H-IndexTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

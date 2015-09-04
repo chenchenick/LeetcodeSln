@@ -5,6 +5,7 @@ using System.Text;
 namespace Leetcode
 {
     [TestFixture]
+    [Category("AddBinary")]
     public class AddBinaryTest
     {
         [Test]

@@ -11,3 +11,4 @@ C:\Users\chenchen\Documents\GitHub\LeetcodeSln\Leetcode\bin\Debug\Leetcode.dll
 C:\Users\chenchen\Documents\GitHub\LeetcodeSln\Leetcode\bin\Debug\Leetcode.pdb
 C:\Users\chenchen\Documents\GitHub\LeetcodeSln\Leetcode\bin\Debug\nunit.framework.dll
 C:\Users\chenchen\Documents\GitHub\LeetcodeSln\Leetcode\bin\Debug\nunit.framework.xml
+C:\Users\chenchen\Documents\GitHub\LeetcodeSln\Leetcode\obj\Debug\Leetcode.csprojResolveAssemblyReference.cache
