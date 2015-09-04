@@ -6,7 +6,7 @@ namespace Leetcode
 {
     [TestFixture]
     [Category("AddBinary")]
-    public class AddBinaryTest
+    public class AddBinaryTestClass
     {
         [Test]
         [TestCase("0", "0", "0")]

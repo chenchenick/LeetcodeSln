@@ -9,7 +9,7 @@ namespace Leetcode
 {
     [TestFixture]
     [Category("H_Index")]
-    class H_IndexTest
+    public class HIndexTestClass
     {
         [Test]
         [TestCase(new int[]{3,0,6,1,5}, 3)]

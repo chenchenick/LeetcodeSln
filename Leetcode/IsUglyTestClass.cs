@@ -9,7 +9,7 @@ namespace Leetcode
 {
     [TestFixture]
     [Category("IsUgly")]
-    public class IsUglyTest
+    public class IsUglyTestClass
     {
         [Test]
         [TestCase(1,true)]

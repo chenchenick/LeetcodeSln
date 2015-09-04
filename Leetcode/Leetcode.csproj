@@ -70,9 +70,10 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="AddBinaryTest.cs" />
-    <Compile Include="H-IndexTest.cs" />
-    <Compile Include="IsUglyTest.cs" />
+    <Compile Include="AddBinaryTestClass.cs" />
+    <Compile Include="AddDigitsTestClass.cs" />
+    <Compile Include="HIndexTestClass.cs" />
+    <Compile Include="IsUglyTestClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
