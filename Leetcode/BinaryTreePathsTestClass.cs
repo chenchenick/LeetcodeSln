@@ -32,35 +32,32 @@ namespace Leetcode
 
         private List<string> BinaryTreePaths(TreeNode root)
         {
-            if (root == null)
-                return new List<string>();
-            StringBuilder sb = new StringBuilder();
             List<string> result = new List<string>();
-            Visit(root, sb.ToString(), result);
+            if (root == null)
+                return result;
+            Visit(root, string.Empty, result);
             return result;
         }
 
         private void Visit(TreeNode treeNode, string current, List<string> result)
         {
-            StringBuilder sb = new StringBuilder(current);
-
             if (treeNode != null)
             {
                 if (!string.IsNullOrEmpty(current))
-                    sb.Append("->");
-                sb.Append(treeNode.val.ToString());
+                    current += "->";
+                current += treeNode.val;
             }
 
             if (treeNode.left == null && treeNode.right == null)
-                result.Add(sb.ToString());
+                result.Add(current);
 
             if (treeNode.left != null)
             {
-                Visit(treeNode.left, sb.ToString(), result);
+                Visit(treeNode.left, current, result);
             }
             if (treeNode.right != null)
             {
-                Visit(treeNode.right, sb.ToString(), result);
+                Visit(treeNode.right, current, result);
             }
         }
     }
