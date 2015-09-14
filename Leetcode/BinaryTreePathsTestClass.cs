@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using NUnit.Framework;
+using Leetcode.Utility;
 
 namespace Leetcode
 {
@@ -60,12 +61,5 @@ namespace Leetcode
                 Visit(treeNode.right, current, result);
             }
         }
-    }
-
-    public class TreeNode {
-        public int val;
-        public TreeNode left;
-        public TreeNode right;
-        public TreeNode(int x) { val = x; }
     }
 }

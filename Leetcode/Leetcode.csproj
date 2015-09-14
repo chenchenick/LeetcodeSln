@@ -73,9 +73,12 @@
     <Compile Include="AddBinaryTestClass.cs" />
     <Compile Include="AddDigitsTestClass.cs" />
     <Compile Include="BinaryTreePathsTestClass.cs" />
+    <Compile Include="PathSumIITestClass.cs" />
     <Compile Include="HIndexTestClass.cs" />
     <Compile Include="IsUglyTestClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utility\BinaryTree.cs" />
+    <Compile Include="Utility\BinaryTreeTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
